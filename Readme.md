@@ -48,6 +48,9 @@ The `src` directory is structured as follows:
 
 The application features user authentication with login and registration functionality. It also offers a home page and supports theme selection (light and dark).
 
+![Preview](https://raw.githubusercontent.com/dmozar/novi/main/light.png)
+![Preview](https://raw.githubusercontent.com/dmozar/novi/main/dark.png)
+
 ### How to Start the Client
 
 To start the client, run the following commands:
