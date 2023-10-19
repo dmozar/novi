@@ -109,6 +109,8 @@ yarn start or yarn dev will start application on port 7711
 
 When you start server, open http://locahost:7711 which will show a welcome HTML page
 
+![Preview](https://raw.githubusercontent.com/dmozar/novi/main/api-home.png)
+
 ## Getting Started
 
 To set up this starter kit, follow these steps:
