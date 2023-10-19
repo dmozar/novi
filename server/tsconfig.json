@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2020",
+    // "lib": ["dom", "dom.iterable", "esnext"],
+    /* Modules */
+    "baseUrl": ".",
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": ".",
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "isolatedModules": false,
+    /* Type Checking */
+    "noImplicitAny": true,
+    "skipLibCheck": false,
+    "allowJs": true,
+    "strict": true,
+    "noEmit": false,
+    "noUnusedLocals": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "plugins":[
+      /* Transform paths in output .js files */
+      {
+         "transform":"typescript-transform-paths"
+      },
+      /* Transform paths in output .d.ts files */
+      {
+         "transform":"typescript-transform-paths",
+         "afterDeclarations": true
+      }
+   ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+  ],
+  "include": [
+    "./index.ts",
+    "./src/**/*",
+    "**/*.ts",
+    "**/*.tsx",
+    "."
+  ],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"],
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  }
+}

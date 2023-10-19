@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500&display=swap');
+
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+#app {
+    background-color: #25193a;
+    color: #fafafa;
+    height: 100%;
+    text-align: center;
+    padding: 5rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 2rem 0;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0 0 1.5rem 0;
+}
+
+.info {
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10rem;
+    color: #71529f;
+}
+
+
+a {
+    color: #fafafa;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #acacac;
+    text-decoration: none;
+}
